@@ -84,7 +84,7 @@
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1623834480698" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1623835301204" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -146,9 +146,27 @@
               
             
               <div id="comments" class="bg-white hosted ">
-                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+                
+                
+                  <!-- jsDelivr -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqusjs.css">
+<script src="https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqus.js"></script>
+
+<div id="disqus_thread"></div>
+<div class="clear"></div>
+<script>
+var options = {
+  shortname: 'gztrek.com',
+  apikey: 'bibVCwr4VVVmIgKyFNlteAEBZYGPTYgQKCWC4Sf8Rlsb7ttBh1QyPIsiMQlEpNyj',
+}
+if ('') {
+  options.api = ''
+}
+var dsqjs = new DisqusJS(options)
+</script>
+
+                
               </div>
-              <div class="clear"></div>
             
 
             </div>
